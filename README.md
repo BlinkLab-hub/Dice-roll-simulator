@@ -19,6 +19,7 @@ Click the **Roll** button and a random number is displayed as the dice value.
 ```js
 Math.floor(Math.random() * 6) + 1
 
+```js
 ---
 
 ##Screenshot
