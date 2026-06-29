@@ -8,7 +8,7 @@ function roll() {
         values.push(value);
     }
     for(let i = 0; i < values.length; i++) {
-        let image = `<figure><figcaption class="value">${values[i]}</figcaption><img src="diceImages/dice${values[i]}.png" alt="dice${values[i]}" class="dice"></figure>`;
+        let image = `<figure><figcaption class="value">${values[i]}</figcaption><img src="dice${values[i]}.png" alt="dice ${values[i]}" class="dice"></figure>`;
         images.push(image);
     }
     results.innerHTML = images.join("");
